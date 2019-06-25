@@ -1,0 +1,830 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AC3Filter 2.5b\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-04 16:15+0400\n"
+"PO-Revision-Date: 2012-06-22 20:06+0800\n"
+"Last-Translator: PoYang <roams.msn@gmail.com>\n"
+"Language-Team: POYANG <roams.msn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese(Traditional)\n"
+"X-Poedit-Country: TAIWAN\n"
+
+#. TRANSLATORS: Main
+msgid "IDD_MAIN"
+msgstr "主聲道"
+
+#. TRANSLATORS: Mixer
+msgid "IDD_MIXER"
+msgstr "混音"
+
+#. TRANSLATORS: Gains
+msgid "IDD_GAINS"
+msgstr "增益"
+
+#. TRANSLATORS: Equalizer
+msgid "IDD_EQ"
+msgstr "等化器"
+
+#. TRANSLATORS: SPDIF
+msgid "IDD_SPDIF"
+msgstr "SPDIF"
+
+#. TRANSLATORS: System
+msgid "IDD_SYSTEM"
+msgstr "系統"
+
+#. TRANSLATORS: About
+msgid "IDD_ABOUT"
+msgstr "關於"
+
+msgid "L"
+msgstr "左"
+
+msgid "C"
+msgstr "中"
+
+msgid "R"
+msgstr "右"
+
+msgid "SL"
+msgstr "左環繞"
+
+msgid "SR"
+msgstr "右環繞"
+
+msgid "LF"
+msgstr "低頻"
+
+msgid "CL"
+msgstr "中置左"
+
+msgid "CR"
+msgstr "中置右"
+
+msgid "BL"
+msgstr "後置左"
+
+msgid "BC"
+msgstr "後置中"
+
+msgid "BR"
+msgstr "後置右"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Center"
+msgstr "中"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Left surround"
+msgstr "左環繞"
+
+msgid "Right surround"
+msgstr "右環繞"
+
+msgid "Low frequency"
+msgstr "低頻"
+
+msgid "Left of center"
+msgstr "中置左"
+
+msgid "Right of center"
+msgstr "中置右"
+
+msgid "Left back"
+msgstr "後置左"
+
+msgid "Center back"
+msgstr "後置中"
+
+msgid "Right back"
+msgstr "後置右"
+
+msgid "kHz"
+msgstr "kHz"
+
+msgid "dB"
+msgstr "dB"
+
+msgid "Hz"
+msgstr "Hz"
+
+msgid "AC3Filter configuration"
+msgstr "AC3Filter 組態"
+
+msgid "Adjust track"
+msgstr "調整軌道"
+
+#. TRANSLATORS: Cancel
+msgid "IDCANCEL"
+msgstr "取消"
+
+#. TRANSLATORS: Donate
+msgid "IDC_BTN_DONATE"
+msgstr "捐贈"
+
+#. TRANSLATORS: Help
+msgid "IDC_BTN_HELP"
+msgstr "說明"
+
+#. TRANSLATORS: Log scale spectrum
+msgid "IDC_CHK_EQ_LOG"
+msgstr "記錄音階頻譜"
+
+#. TRANSLATORS: Frequency (Hz)
+msgid "IDC_LBL_EQ_FREQ"
+msgstr "頻率 (Hz)"
+
+#. TRANSLATORS: Gain (dB)
+msgid "IDC_LBL_EQ_GAIN"
+msgstr "增益 (dB)"
+
+#. TRANSLATORS: Filter length:
+msgid "IDC_LBL_EQ_LEN"
+msgstr "濾波長度:"
+
+#. TRANSLATORS: Problem description:
+msgid "IDC_LBL_ERROR_DESC"
+msgstr "問題描述:"
+
+#. TRANSLATORS: LFE
+msgid "IDC_LBL_LFE"
+msgstr "低頻"
+
+#. TRANSLATORS: Surround
+msgid "IDC_LBL_SUR"
+msgstr "環繞"
+
+#. TRANSLATORS: Voice
+msgid "IDC_LBL_VOICE"
+msgstr "語音"
+
+#. TRANSLATORS: Save all (multichannel and master equalizers).
+msgid "IDC_RBT_EQ_ALL"
+msgstr "全部儲存 (多聲道和主聲道等化器)。"
+
+#. TRANSLATORS: Save current channel only, so you can apply this preset to any channel.
+msgid "IDC_RBT_EQ_CUR"
+msgstr "僅儲存目前聲道，因此你可以應用這個預設到任何聲道。"
+
+#. TRANSLATORS: Save all channels (except Master), so you can restore multichannel setup later.
+msgid "IDC_RBT_EQ_MCH"
+msgstr "儲存所有聲道 (主聲道除外)，以便你以後可以恢復多通道設置。"
+
+#. TRANSLATORS: AC3Filter ver. %s Copyright (c) 2002-2013 by Alexander Vigovsky
+msgid "IDC_VER"
+msgstr "AC3Filter 版本. %s 版權所有 (c) 2002-2012 by Alexander Vigovsky"
+
+#. TRANSLATORS: OK
+msgid "IDOK"
+msgstr "確定"
+
+#. TRANSLATORS: What is it?
+msgid "IDC_GRP_ABOUT"
+msgstr "關於本軟體"
+
+#. TRANSLATORS: AC3Filter is a high quality free DirectShow filter designed for real time audio decoding and processing. It has a priority on wide functionality and convenient settings. Supports multi-channel and digital (SPDIF) outputs.
+msgid "IDC_LBL_ABOUT1"
+msgstr ""
+"AC3Filter 是專為音效即時解碼和處理而設計的一個高品質，免費的 DirectShow 篩選"
+"器。他有全方位的功能與便利的設定。並且支援多聲道和數位輸出 (SPDIF)。"
+
+#. TRANSLATORS: It is used automatically by most multimedia players. Required to playback AVI files with AC3 or DTS audio tracks. Also can be used to playback DVD.
+msgid "IDC_LBL_ABOUT2"
+msgstr ""
+"AC3Filter 能夠被大部分的媒體播放程式自動啟用。並能夠播放以 AC3 或 DTS 為音軌"
+"的 AVI 檔案當然也可以用來播放 DVD。"
+
+#. TRANSLATORS: AGC
+msgid "IDC_GRP_AGC"
+msgstr "自動增益控制(AGC)"
+
+#. TRANSLATORS: Attack/release speed (dB/s):
+msgid "IDC_LBL_ATTACK_RELEASE"
+msgstr "起音/釋放速度 (dB/s):"
+
+#. TRANSLATORS: Bass redirection
+msgid "IDC_GRP_BASS"
+msgstr "低音重導"
+
+#. TRANSLATORS: Enable
+msgid "IDC_CHK_BASS_ENABLE"
+msgstr "啟用"
+
+#. TRANSLATORS: Cutoff frequency
+msgid "IDC_LBL_BASS_FREQ"
+msgstr "截斷頻率"
+
+#. TRANSLATORS: Bass destination:
+msgid "IDC_LBL_BASS_ROUTE"
+msgstr "低音目標:"
+
+#. TRANSLATORS: Front channels
+msgid "IDC_RBT_BASS_FRONT"
+msgstr "前聲道"
+
+#. TRANSLATORS: Subwoofer
+msgid "IDC_RBT_BASS_SUB"
+msgstr "重低音"
+
+#. TRANSLATORS: Contact author
+msgid "IDC_GRP_CONTACT"
+msgstr "聯絡作者"
+
+#. TRANSLATORS: Please report about all bugs. Feel free to email author with your ideas, criticism, etc. Please write in English or Russian only. Subject should contain 'AC3Filter' word (due to automatic filtering).
+msgid "IDC_LBL_CONTACT"
+msgstr ""
+"請回報所有的相關問題。你可以隨意的向作者提供你的意見或是批評等等。但是請以英"
+"文或是俄文書寫。並且在標題列中包含'AC3Filter'這個單字(因為電子郵件有自動過濾"
+"器)"
+
+#. TRANSLATORS: mail to author|mailto:ac3filter@gmail.com?Subject=AC3Filter
+msgid "IDC_LNK_EMAIL"
+msgstr "寄信給作者|mailto:xvalex@mail.ru?Subject=AC3Filter"
+
+#. TRANSLATORS: Project forum|http://ac3filter.net/forum/
+msgid "IDC_LNK_FORUM"
+msgstr "專案論壇|http://ac3filter.net/forum/"
+
+#. TRANSLATORS: Homepage|http://ac3filter.net/
+msgid "IDC_LNK_HOME"
+msgstr "首頁|http://ac3filter.net/"
+
+#. TRANSLATORS: CPU
+msgid "IDC_GRP_CPU"
+msgstr "CPU"
+
+#. TRANSLATORS: 0%
+msgid "IDC_CPU_LABEL"
+msgstr "0%"
+
+#. TRANSLATORS: Thanks to
+msgid "IDC_GRP_CREDITS"
+msgstr "致謝"
+
+#. TRANSLATORS: Debug
+msgid "IDC_GRP_DEBUG"
+msgstr "除錯"
+
+#. TRANSLATORS: Error report
+msgid "IDC_BTN_ERROR_REPORT"
+msgstr "錯誤報告"
+
+#. TRANSLATORS: Save logs on exit
+msgid "IDC_CHK_SAVE_LOGS"
+msgstr "退出時儲存記錄"
+
+#. TRANSLATORS: Send  audio data
+msgid "IDC_CHK_SEND_AUDIO_DATA"
+msgstr "發送音訊數據"
+
+#. TRANSLATORS: Feedback email:
+msgid "IDC_LBL_FEEDBACK"
+msgstr "反饋電郵:"
+
+#. TRANSLATORS: How to report a bug?|http://ac3filter.net/wiki/AC3Filter:How_to_report_a_bug
+msgid "IDC_LNK_ERROR_REPORT"
+msgstr "如何報告 bug？|http://ac3filter.net/wiki/AC3Filter:How_to_report_a_bug"
+
+#. TRANSLATORS: Decoder info
+msgid "IDC_GRP_DECODER_INFO"
+msgstr "解碼器訊息"
+
+#. TRANSLATORS: Frames / Errors
+msgid "IDC_LBL_FRAMES_ERRORS"
+msgstr "幀 / 錯誤"
+
+#. TRANSLATORS: Delays
+msgid "IDC_GRP_DELAYS"
+msgstr "延遲"
+
+#. TRANSLATORS: Reset
+msgid "IDC_BTN_DELAYS_RESET"
+msgstr "重設"
+
+#. TRANSLATORS: Enable
+msgid "IDC_CHK_DELAYS"
+msgstr "啟用"
+
+#. TRANSLATORS: Units:
+msgid "IDC_LBL_DELAY_UNITS"
+msgstr "單位:"
+
+#. TRANSLATORS: DRC
+msgid "IDC_GRP_DRC"
+msgstr "動態範圍壓縮"
+
+#. TRANSLATORS: Enable
+msgid "IDC_CHK_DRC"
+msgstr "啟用"
+
+#. TRANSLATORS: DirectShow options
+msgid "IDC_GRP_DSHOW"
+msgstr "DirectShow 選項"
+
+#. TRANSLATORS: Check output format support
+msgid "IDC_CHK_QUERY_SINK"
+msgstr "檢查輸出格式支援"
+
+#. TRANSLATORS: Force sound card to reinit after seek / pause
+msgid "IDC_CHK_REINIT"
+msgstr "搜尋或暫停後強制音效卡重新初始化"
+
+#. TRANSLATORS: Disallow PCM output in SPDIF mode
+msgid "IDC_CHK_SPDIF_NO_PCM"
+msgstr "在 SPDIF 模式中禁止 PCM 輸出"
+
+#. TRANSLATORS: SPDIF/DTS conversion
+msgid "IDC_GRP_DTS_CONV"
+msgstr "SPDIF/DTS 轉換"
+
+#. TRANSLATORS: Convert to DTS14
+msgid "IDC_RBT_DTS_CONV_14BIT"
+msgstr "轉換為 DTS14"
+
+#. TRANSLATORS: Convert to DTS16
+msgid "IDC_RBT_DTS_CONV_16BIT"
+msgstr "轉換為 DTS16"
+
+#. TRANSLATORS: Do not convert
+msgid "IDC_RBT_DTS_CONV_NONE"
+msgstr "不轉換"
+
+#. TRANSLATORS: SPDIF/DTS mode
+msgid "IDC_GRP_DTS_MODE"
+msgstr "SPDIF/DTS 模式"
+
+#. TRANSLATORS: Auto
+msgid "IDC_RBT_DTS_MODE_AUTO"
+msgstr "自動模式"
+
+#. TRANSLATORS: Padded DTS
+msgid "IDC_RBT_DTS_MODE_PADDED"
+msgstr "填補 DTS"
+
+#. TRANSLATORS: SPDIF wrapped
+msgid "IDC_RBT_DTS_MODE_WRAPPED"
+msgstr "SPDIF 封包"
+
+#. TRANSLATORS: Equalizer
+msgid "IDC_GRP_EQ"
+msgstr "等化器"
+
+#. TRANSLATORS: Equalizer options
+msgid "IDC_GRP_EQ_OPTIONS"
+msgstr "等化器選項"
+
+#. TRANSLATORS: Custom
+msgid "IDC_BTN_EQ_CUSTOM"
+msgstr "自訂"
+
+#. TRANSLATORS: Reset
+msgid "IDC_BTN_EQ_RESET"
+msgstr "重設"
+
+#. TRANSLATORS: Enable
+msgid "IDC_CHK_EQ"
+msgstr "啟用"
+
+#. TRANSLATORS: Equalizer preset
+msgid "IDC_GRP_EQ_PRESET"
+msgstr "等化器預設"
+
+#. TRANSLATORS: Delete
+msgid "IDC_BTN_EQ_DELETE"
+msgstr "刪除"
+
+#. TRANSLATORS: Save
+msgid "IDC_BTN_EQ_SAVE"
+msgstr "儲存"
+
+#. TRANSLATORS: Use AC3Filter for:
+msgid "IDC_GRP_FORMATS"
+msgstr "AC3Filter 用於:"
+
+#. TRANSLATORS: Gain
+msgid "IDC_GRP_GAIN"
+msgstr "增益"
+
+#. TRANSLATORS: Gain
+msgid "IDC_LBL_GAIN"
+msgstr "增益"
+
+#. TRANSLATORS: Master
+msgid "IDC_LBL_MASTER"
+msgstr "主聲道"
+
+#. TRANSLATORS: Input gains
+msgid "IDC_GRP_INPUT_GAINS"
+msgstr "輸入增益"
+
+#. TRANSLATORS: Input levels
+msgid "IDC_GRP_INPUT_LEVELS"
+msgstr "輸入位準"
+
+#. TRANSLATORS: Interface options
+msgid "IDC_GRP_INTERFACE"
+msgstr "介面選項"
+
+#. TRANSLATORS: Invert levels
+msgid "IDC_CHK_INVERT_LEVELS"
+msgstr "反轉位準顯示"
+
+#. TRANSLATORS: Show tooltips
+msgid "IDC_CHK_TOOLTIPS"
+msgstr "顯示工具提示"
+
+#. TRANSLATORS: Show tray icon
+msgid "IDC_CHK_TRAY"
+msgstr "顯示托盤圖示"
+
+#. TRANSLATORS: Interface update rate (ms)
+msgid "IDC_LBL_REFRESH_TIME"
+msgstr "介面更新率 (毫秒)"
+
+#. TRANSLATORS: License
+msgid "IDC_GRP_LICENSE"
+msgstr "授權"
+
+#. TRANSLATORS: This program is free software and can be distributed according to the terms of GNU General Public License version 2.
+msgid "IDC_LBL_LICENSE"
+msgstr "本程式為免費軟體，並依照 GNU 通用公共許可証第二版中的條款中進行分發。"
+
+#. TRANSLATORS: Mixing matrix
+msgid "IDC_GRP_MATRIX"
+msgstr "混音矩陣"
+
+#. TRANSLATORS: Matrix preset
+msgid "IDC_GRP_MATRIX_PRESET"
+msgstr "矩陣預設"
+
+#. TRANSLATORS: Delete
+msgid "IDC_BTN_MATRIX_DELETE"
+msgstr "刪除"
+
+#. TRANSLATORS: Save
+msgid "IDC_BTN_MATRIX_SAVE"
+msgstr "儲存"
+
+#. TRANSLATORS: Filter merit
+msgid "IDC_GRP_MERIT"
+msgstr "篩選器優先權"
+
+#. TRANSLATORS: Disable AC3Filter
+msgid "IDC_RBT_MERIT_DO_NOT_USE"
+msgstr "停用 AC3Filter"
+
+#. TRANSLATORS: Prefer AC3Filter
+msgid "IDC_RBT_MERIT_PREFERRED"
+msgstr "優先使用 AC3Filter"
+
+#. TRANSLATORS: Prefer other decoder
+msgid "IDC_RBT_MERIT_UNLIKELY"
+msgstr "優先使用其他解碼器"
+
+#. TRANSLATORS: Options
+msgid "IDC_GRP_MIXER_OPTIONS"
+msgstr "選項"
+
+#. TRANSLATORS: Auto gain control
+msgid "IDC_CHK_AUTO_GAIN"
+msgstr "自動增益控制"
+
+#. TRANSLATORS: Auto matrix
+msgid "IDC_CHK_AUTO_MATRIX"
+msgstr "自動矩陣"
+
+#. TRANSLATORS: Expand stereo
+msgid "IDC_CHK_EXPAND_STEREO"
+msgstr "擴展立體聲"
+
+#. TRANSLATORS: One-pass norm
+msgid "IDC_CHK_NORMALIZE"
+msgstr "單次標準化"
+
+#. TRANSLATORS: Normalize matrix
+msgid "IDC_CHK_NORM_MATRIX"
+msgstr "標準化矩陣"
+
+#. TRANSLATORS: Voice control
+msgid "IDC_CHK_VOICE_CONTROL"
+msgstr "語音控制"
+
+#. TRANSLATORS: Output format
+msgid "IDC_GRP_OUTPUT"
+msgstr "輸出格式"
+
+#. TRANSLATORS: Use SPDIF
+msgid "IDC_CHK_USE_SPDIF"
+msgstr "使用 SPDIF"
+
+#. TRANSLATORS: Format
+msgid "IDC_LBL_FORMAT"
+msgstr "格式"
+
+#. TRANSLATORS: input format
+msgid "IDC_LBL_INPUT"
+msgstr "輸入格式"
+
+#. TRANSLATORS: Rate
+msgid "IDC_LBL_RATE"
+msgstr "速率"
+
+#. TRANSLATORS: Output gains
+msgid "IDC_GRP_OUTPUT_GAINS"
+msgstr "輸出增益"
+
+#. TRANSLATORS: Output levels
+msgid "IDC_GRP_OUTPUT_LEVELS"
+msgstr "輸出位準"
+
+#. TRANSLATORS: Preset
+msgid "IDC_GRP_PRESET"
+msgstr "預設"
+
+#. TRANSLATORS: Delete
+msgid "IDC_BTN_PRESET_DELETE"
+msgstr "刪除"
+
+#. TRANSLATORS: File
+msgid "IDC_BTN_PRESET_FILE"
+msgstr "檔案"
+
+#. TRANSLATORS: Save
+msgid "IDC_BTN_PRESET_SAVE"
+msgstr "儲存"
+
+#. TRANSLATORS: Default audio renderer
+msgid "IDC_GRP_RENDERER"
+msgstr "預設音訊渲染器"
+
+#. TRANSLATORS: Use Direct Sound by default
+msgid "IDC_RBT_RENDER_DS"
+msgstr "預設使用 Direct Sound"
+
+#. TRANSLATORS: Use Wave Out by default
+msgid "IDC_RBT_RENDER_WO"
+msgstr "預設使用 Wave 輸出"
+
+#. TRANSLATORS: SPDIF options
+msgid "IDC_GRP_SPDIF"
+msgstr "SPDIF 選項"
+
+#. TRANSLATORS: 32kHz
+msgid "IDC_CHK_SPDIF_ALLOW_32"
+msgstr "32kHz"
+
+#. TRANSLATORS: 44kHz
+msgid "IDC_CHK_SPDIF_ALLOW_44"
+msgstr "44kHz"
+
+#. TRANSLATORS: 48kHz
+msgid "IDC_CHK_SPDIF_ALLOW_48"
+msgstr "48kHz"
+
+#. TRANSLATORS: Output SPDIF as PCM
+msgid "IDC_CHK_SPDIF_AS_PCM"
+msgstr "輸出 SPDIF 為 PCM"
+
+#. TRANSLATORS: Restrict SPDIF sample rate
+msgid "IDC_CHK_SPDIF_CHECK_SR"
+msgstr "限制 SPDIF 取樣率"
+
+#. TRANSLATORS: Use AC3 encoder
+msgid "IDC_CHK_SPDIF_ENCODE"
+msgstr "使用 AC3 編碼器"
+
+#. TRANSLATORS: Do not encode stereo PCM
+msgid "IDC_CHK_SPDIF_STEREO_PT"
+msgstr "不編碼 PCM 立體聲"
+
+#. TRANSLATORS: Detect SPDIF stream in PCM data
+msgid "IDC_CHK_USE_DETECTOR"
+msgstr "在 PCM 資料中檢測 SPDIF 流"
+
+#. TRANSLATORS: AC3 encoder bitrate (kbps)
+msgid "IDC_LBL_SPDIF_BITRATE"
+msgstr "AC3 編碼器位元率 (kbps):"
+
+#. TRANSLATORS: SPDIF passthrough
+msgid "IDC_GRP_SPDIF_PT"
+msgstr "通過 SPDIF"
+
+#. TRANSLATORS: AC3
+msgid "IDC_CHK_SPDIF_AC3"
+msgstr "AC3"
+
+#. TRANSLATORS: DTS
+msgid "IDC_CHK_SPDIF_DTS"
+msgstr "DTS"
+
+#. TRANSLATORS: MPEG Audio
+msgid "IDC_CHK_SPDIF_MPA"
+msgstr "MPEG 音訊"
+
+#. TRANSLATORS: Audio/Video sync
+msgid "IDC_GRP_SYNC"
+msgstr "音/視訊同步"
+
+#. TRANSLATORS: Jitter correction.
+msgid "IDC_CHK_JITTER"
+msgstr "抖動校正"
+
+#. TRANSLATORS: Current jitter:
+msgid "IDC_LBL_JITTER"
+msgstr "目前抖動:"
+
+#. TRANSLATORS: Time shift (ms):
+msgid "IDC_LBL_TIME_SHIFT"
+msgstr "時移 (毫秒):"
+
+#. TRANSLATORS: <- sound lags
+msgid "IDC_LBL_TIME_SHIFT_MINUS"
+msgstr "-0.5秒"
+
+#. TRANSLATORS: sound hastes ->
+msgid "IDC_LBL_TIME_SHIFT_PLUS"
+msgstr "+0.5秒"
+
+#. TRANSLATORS: Localization
+msgid "IDC_GRP_TRANS"
+msgstr "本地化"
+
+#. TRANSLATORS: Language:
+msgid "IDC_LBL_LANG"
+msgstr "語言:"
+
+#. TRANSLATORS: How to translate?|http://ac3filter.net/guides/how_to_translate
+msgid "IDC_LNK_TRANSLATE"
+msgstr "如何翻譯？|http://ac3filter.net/guides/how_to_translate"
+
+msgid "Samples"
+msgstr "取樣"
+
+msgid "Millisecs"
+msgstr "毫秒"
+
+msgid "Meters"
+msgstr "公尺"
+
+msgid "Centimeters"
+msgstr "公分"
+
+msgid "Feet"
+msgstr "英尺"
+
+msgid "Inches"
+msgstr "英吋"
+
+msgid "All channels"
+msgstr "所有聲道"
+
+#, c-format
+msgid "%ikHz"
+msgstr "%ikHz"
+
+#, c-format
+msgid "%iHz"
+msgstr "%iHz"
+
+#, c-format
+msgid "Are you sure you want to delete '%s' preset?"
+msgstr "確定要刪除預設 '%s' 嗎？"
+
+msgid "Delete confirmation"
+msgstr "刪除確認"
+
+#, c-format
+msgid "Are you sure you want to delete '%s' matrix?"
+msgstr "確定要刪除矩陣 '%s' 嗎？"
+
+#, c-format
+msgid "Are you sure you want to delete '%s' equalizer preset?"
+msgstr "確定要刪除等化器預設 '%s' 嗎？"
+
+msgid ""
+"This option is DANGEROUS! Filter may make very loud noise with this option "
+"enabled. Press 'No' to enable this option."
+msgstr ""
+"這個選項是危險的! 啟用後可能會產生非常大的噪音。要啟用該選項，請按下\"否\"的"
+"按鈕。"
+
+msgid "Dangerous option!"
+msgstr "危險的選項！"
+
+msgid "Spectrum: no data"
+msgstr "頻譜: 沒有數據"
+
+#, c-format
+msgid "Spectrum: %s"
+msgstr "頻譜: %s"
+
+msgid "Do not change"
+msgstr "不更改"
+
+msgid "Mono"
+msgstr "單聲道"
+
+msgid "Stereo"
+msgstr "立體聲"
+
+msgid "4.0 Quadro"
+msgstr "4.0 矩陣"
+
+msgid "5.0 Surround"
+msgstr "5.0 環繞"
+
+msgid "6.0 Surround"
+msgstr "6.0 環繞"
+
+msgid "7.0 Surround"
+msgstr "7.0 環繞"
+
+msgid "2.1 Stereo"
+msgstr "2.1 立體聲"
+
+msgid "4.1 Quadro"
+msgstr "4.1 矩陣"
+
+msgid "5.1 Surround"
+msgstr "5.1 環繞"
+
+msgid "6.1 Surround"
+msgstr "6.1 環繞"
+
+msgid "7.1 Surround"
+msgstr "7.1 環繞"
+
+msgid "Dolby Surround/ProLogic"
+msgstr "杜比環繞/定向邏輯"
+
+msgid "Dolby ProLogic II"
+msgstr "杜比定向邏輯 II"
+
+msgid "PCM 16bit"
+msgstr "PCM 16位元"
+
+msgid "PCM 24bit"
+msgstr "PCM 24位元"
+
+msgid "PCM 32bit"
+msgstr "PCM 32位元"
+
+msgid "PCM Float"
+msgstr "PCM 浮點"
+
+msgid "PCM Double"
+msgstr "PCM 倍增"
+
+#, c-format
+msgid "%s %s %iHz"
+msgstr "%s %s %iHz"
+
+msgid "Use SPDIF"
+msgstr "使用 SPDIF"
+
+msgid "Use SPDIF (disabled)"
+msgstr "使用 SPDIF (停用)"
+
+msgid "Use SPDIF (passthrough)"
+msgstr "使用 SPDIF (通過)"
+
+msgid "Use SPDIF (AC3 encode)"
+msgstr "使用 SPDIF (AC3 編碼)"
+
+msgid "Use SPDIF (Unknown)"
+msgstr "使用 SPDIF (未知)"
+
+#, c-format
+msgid ""
+"Input\tmean: %ims\tstddev: %ims\n"
+"Output\tmean: %ims\tstddev: %ims"
+msgstr ""
+"輸入\t平均: %i 毫秒\t標準偏差: %i 毫秒\n"
+"輸出\t平均: %i 毫秒\t標準偏差: %i 毫秒"
+
+msgid ""
+"This option is DANGEROUS! Video may go out of sync with this option enabled. "
+"Press 'No' to enable this option."
+msgstr ""
+"這個選項是有危險的! 啟用後可能造成影音不同步。如要啟用請按下\"否\"的按鈕。"
+
+msgid "Enter you email."
+msgstr "輸入你的電子郵件。"
+
+msgid "Please..."
+msgstr "請..."
+
+msgid "Describe your proiblem."
+msgstr "描述你的問題。"

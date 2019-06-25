@@ -1,0 +1,5 @@
+repo: 480df49d7ef5384821562c086b0dd57466738dd3
+node: 24dbede90947af7a4d5ea1c1dba816809f0f1acf
+branch: default
+latesttag: ac3filter_2_6_0b
+latesttagdistance: 2
